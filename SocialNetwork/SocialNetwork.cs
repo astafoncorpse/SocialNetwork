@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace SocialNetwork
 {
-    class Program
+    class SocialNetwork
     {
         static FriendServices friendServices;
         static MessageService messageService;

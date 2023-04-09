@@ -17,13 +17,13 @@ namespace SocialNetwork.PLL.Views
             {
                 case "1":
                     {
-                        Program.authenticationView.Show();
+                        SocialNetwork.authenticationView.Show();
                         break;
                     }
 
                 case "2":
                     {
-                        Program.registrationView.Show();
+                        SocialNetwork.registrationView.Show();
                         break;
                     }
             }

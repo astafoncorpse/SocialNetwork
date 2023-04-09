@@ -39,37 +39,37 @@ namespace SocialNetwork.PLL.Views
                 {
                     case "1":
                         {
-                            Program.userInfoView.Show(user);
+                            SocialNetwork.userInfoView.Show(user);
                             break;
                         }
                     case "2":
                         {
-                            Program.userDataUpdateView.Show(user);
+                            SocialNetwork.userDataUpdateView.Show(user);
                             break;
                         }
 
                     case "3":
                         {
-                            Program.addingToFriends.Adding();
+                            SocialNetwork.addingToFriends.Adding();
                             break;
                         }
 
                     case "4":
                         {
-                            Program.messageSendingView.Show(user);
+                            SocialNetwork.messageSendingView.Show(user);
                             break;
                         }
 
                     case "5":
                         {
 
-                            Program.userIncomingMessageView.Show(user.IncomingMessages);
+                            SocialNetwork.userIncomingMessageView.Show(user.IncomingMessages);
                             break;
                         }
 
                     case "6":
                         {
-                            Program.userOutcomingMessageView.Show(user.OutgoingMessages);
+                            SocialNetwork.userOutcomingMessageView.Show(user.OutgoingMessages);
                             break;
                         }
                 }
